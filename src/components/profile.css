@@ -1,0 +1,20 @@
+.profile {
+  background: white;
+  padding: 20px;
+  color: #424242;
+}
+
+.profile__header {
+  letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
