@@ -17,15 +17,6 @@
   border-top: 1px rgb(193, 190, 190) solid;
 }
 
-.profile__link {
-  margin: 20px;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #60aefb;
-  letter-spacing: 2px;
-  font-weight: 700;
-}
-
 h1 {
   font-size: 40px;
   margin: 0;
@@ -36,10 +27,4 @@ p {
   margin-top: 10px;
   margin-bottom: 0;
   line-height: 1.5;
-}
-
-a {
-  margin: 20px;
-  color: white;
-  text-decoration: none;
 }

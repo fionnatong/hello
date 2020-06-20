@@ -1,0 +1,14 @@
+.button {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #60aefb;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+a {
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+}

@@ -1,3 +1,4 @@
+import Button from "./Button";
 import React from "react";
 import "./profile.css";
 
@@ -25,24 +26,9 @@ const Profile = () => (
       </p>
     </div>
     <div className="profile__link-segment">
-      <div className="profile__link">
-        <a
-          href="https://www.linkedin.com/in/fionnatong/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedin
-        </a>
-      </div>
-      <div className="profile__link">
-        <a
-          href="https://github.com/fionnatong"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github
-        </a>
-      </div>
+      <Button url="https://www.linkedin.com/in/fionnatong/" text="linkedin" />
+      <Button url="https://github.com/fionnatong" text="github" />
+      <Button url="mailto:fionnatong@gmail.com" text="email" />
     </div>
   </div>
 );
